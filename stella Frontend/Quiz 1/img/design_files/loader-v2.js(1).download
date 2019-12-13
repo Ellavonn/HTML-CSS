@@ -1,0 +1,102 @@
+(function() {
+
+    var __hs_cta_json = {"css":"a#cta_button_439788_adea7b6f-8791-47e3-b0b4-5e3a538ee9ec {\n  cursor:pointer; \n}\na#cta_button_439788_adea7b6f-8791-47e3-b0b4-5e3a538ee9ec:hover {\n}\na#cta_button_439788_adea7b6f-8791-47e3-b0b4-5e3a538ee9ec:active, #cta_button_439788_adea7b6f-8791-47e3-b0b4-5e3a538ee9ec:active:hover {\n}\n\n.ns-cta-button-custom {display: table; background: #fff; width: 370px; text-decoration: none; margin: 0px }\n.ns-cta-button-custom-row {display: table-row;}\n\n.ns-cta-button-custom:after { content: \"\"; display: block; clear: both }\n.ns_cta_left { display: table-cell; vertical-align: middle; width: 105px; text-align: left; }\n.ns_cta_left img { margin:0 !important; border: none !important }\n.ns_cta_right { display: table-cell; vertical-align: middle; width: 265px; text-align: left; }\n.ns-cta-font { color: #020202; white-space: normal; font-size: 22px !important; margin: 0 20px 10px 0 !important; line-height:24px !important; padding: 0 !important;\n }\n.ns-cta-inner-button { display: inline-block; background: #e03838; color: #fff; letter-spacing: 1px; padding: 8px 26px !important; font-size: 16px !important; line-height: 23px !important;\n}\n\n","image_html":"<a id=\"cta_button_439788_adea7b6f-8791-47e3-b0b4-5e3a538ee9ec\" class=\"cta_button\" href=\"/cs/c/?cta_guid=adea7b6f-8791-47e3-b0b4-5e3a538ee9ec&placement_guid=cacf6e34-07ad-4f2a-a94e-89b633ed807a&portal_id=439788&canon=https%3A%2F%2Fwww.intechnic.com%2Fblog%2F20-beautiful-big-background-image-website-design-inspirations%2F&redirect_url=APefjpHKFUDNeS_I8k23P4W5QgVvJxxq-BgF8cMIAU5NSR78x6IR51p-0HzOeR6MbWQCCWEXnjAUy7pxbz2emkjEJrJA_nqXge2dF-FQmNtKxHwTbBzCF2juceeTp-rhQBlvT9ArvXjQ&click=13dc5873-3814-4081-af3d-2afea119afdd&hsutk=c7a00000133a1d8019b90169522b3f87&utm_referrer=https%3A%2F%2Fwww.google.com%2F\"  target=\"_blank\"  cta_dest_link=\"https://www.intechnic.com/contact/\"><img id=\"hs-cta-img-cacf6e34-07ad-4f2a-a94e-89b633ed807a\" class=\"hs-cta-img ns-cta-button-custom\" style=\"border-width: 0px; /*hs-extra-styles*/\" mce_noresize=\"1\" alt=\"We Design the World&#39;s Best Websites  Let&#39;s Talk\" src=\"http://cdn2.hubspot.net/hubshot/17/09/16/57e9a4cf-e346-44f3-9bd1-61fd6cf93eec.png\" /></a>","is_image":false,"placement_element_class":"hs-cta-cacf6e34-07ad-4f2a-a94e-89b633ed807a","raw_html":"<a id=\"cta_button_439788_adea7b6f-8791-47e3-b0b4-5e3a538ee9ec\" class=\"cta_button ns-cta-button-custom\" href=\"/cs/c/?cta_guid=adea7b6f-8791-47e3-b0b4-5e3a538ee9ec&placement_guid=cacf6e34-07ad-4f2a-a94e-89b633ed807a&portal_id=439788&canon=https%3A%2F%2Fwww.intechnic.com%2Fblog%2F20-beautiful-big-background-image-website-design-inspirations%2F&redirect_url=APefjpHKFUDNeS_I8k23P4W5QgVvJxxq-BgF8cMIAU5NSR78x6IR51p-0HzOeR6MbWQCCWEXnjAUy7pxbz2emkjEJrJA_nqXge2dF-FQmNtKxHwTbBzCF2juceeTp-rhQBlvT9ArvXjQ&click=13dc5873-3814-4081-af3d-2afea119afdd&hsutk=c7a00000133a1d8019b90169522b3f87&utm_referrer=https%3A%2F%2Fwww.google.com%2F\" target=\"_blank\" style=\"/*hs-extra-styles*/\" cta_dest_link=\"https://www.intechnic.com/contact/\" title=\"We Design the World&#39;s Best Websites  Let&#39;s Talk\"><div class=\"ns_cta_row\">\n<div class=\"ns_cta_left\"><img height=\"118\" src=\"https://cdn2.hubspot.net/hubfs/439788/Content_Offers/D1-C1_-_Best_Insurance_Websites/D1-C1_Side_Best_Insurance_Websites_small.png\" width=\"85\" /></div>\n<div class=\"ns_cta_right\">\n<p class=\"ns-cta-font\">We Design the World's Best Websites</p>\n<p class=\"ns-cta-inner-button\">Let's Talk</p>\n</div>\n</div></a>"};
+    var __hs_cta = {};
+
+    __hs_cta.drop = function() {
+        var is_legacy = document.getElementById('hs-cta-ie-element') && true || false,
+            html = __hs_cta_json.image_html,
+            tags = __hs_cta.getTags(),
+            is_image = __hs_cta_json.is_image,
+            parent, _style;
+
+        if (!is_legacy && !is_image) {
+            parent = (document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]);
+
+            _style = document.createElement('style');
+            parent.insertBefore(_style, parent.childNodes[0]);
+            try {
+                default_css = ".hs-cta-wrapper p, .hs-cta-wrapper div { margin: 0; padding: 0; }";
+                cta_css = default_css + " " + __hs_cta_json.css;
+                // http://blog.coderlab.us/2005/09/22/using-the-innertext-property-with-firefox/
+                _style[document.all ? 'innerText' : 'textContent'] = cta_css;
+            } catch (e) {
+                // addressing an ie9 issue
+                _style.styleSheet.cssText = cta_css;
+            }
+
+            html = __hs_cta_json.raw_html;
+
+            
+
+        }
+
+        for (var i = 0; i < tags.length; ++i) {
+
+            var tag = tags[i];
+            var images = tag.getElementsByTagName('img');
+            var cssText = "";
+            var align = "";
+            for (var j = 0; j < images.length; j++) {
+                align = images[j].align;
+                images[j].style.border = '';
+                images[j].style.display = '';
+                cssText = images[j].style.cssText;
+            }
+
+            if (align == "right") {
+                tag.style.display = "block";
+                tag.style.textAlign = "right";
+            } else if (align == "middle") {
+                tag.style.display = "block";
+                tag.style.textAlign = "center";
+            }
+
+            tag.innerHTML = html.replace('/*hs-extra-styles*/', cssText);
+            tag.style.visibility = 'visible';
+            tag.setAttribute('data-hs-drop', 'true');
+            window.hbspt && hbspt.cta && hbspt.cta.afterLoad && hbspt.cta.afterLoad('cacf6e34-07ad-4f2a-a94e-89b633ed807a');
+        }
+
+        return tags;
+    };
+
+    __hs_cta.getTags = function() {
+        var allTags, check, i, divTags, spanTags,
+            tags = [];
+            if (document.getElementsByClassName) {
+                allTags = document.getElementsByClassName(__hs_cta_json.placement_element_class);
+                check = function(ele) {
+                    return (ele.nodeName == 'DIV' || ele.nodeName == 'SPAN') && (!ele.getAttribute('data-hs-drop'));
+                };
+            } else {
+                allTags = [];
+                divTags = document.getElementsByTagName("div");
+                spanTags = document.getElementsByTagName("span");
+                for (i = 0; i < spanTags.length; i++) {
+                    allTags.push(spanTags[i]);
+                }
+                for (i = 0; i < divTags.length; i++) {
+                    allTags.push(divTags[i]);
+                }
+
+                check = function(ele) {
+                    return (ele.className.indexOf(__hs_cta_json.placement_element_class) > -1) && (!ele.getAttribute('data-hs-drop'));
+                };
+            }
+            for (i = 0; i < allTags.length; ++i) {
+                if (check(allTags[i])) {
+                    tags.push(allTags[i]);
+                }
+            }
+        return tags;
+    };
+
+    // need to do a slight timeout so IE has time to react
+    setTimeout(__hs_cta.drop, 10);
+    
+    window._hsq = window._hsq || [];
+    window._hsq.push(['trackCtaView', 'cacf6e34-07ad-4f2a-a94e-89b633ed807a', 'adea7b6f-8791-47e3-b0b4-5e3a538ee9ec']);
+    
+
+}());

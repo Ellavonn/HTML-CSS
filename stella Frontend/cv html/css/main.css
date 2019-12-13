@@ -1,0 +1,333 @@
+body{
+/*background-color: #ccc;*/
+
+}
+
+.center{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	overflow: auto;
+
+}
+.container{
+margin: 0 auto;
+width: 1200px;
+position: relative;
+background-color: white;
+}
+.image img{
+width: 100%;
+height: 700px;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.boldtext{
+font-size: 42px;
+font-weight: bold;
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: #ffffff;
+
+}
+.learn{
+border: 1px solid;
+border-color: white;
+font-size: 25px;
+font-weight: bold;
+position: absolute;
+top: 13%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+padding: 5px;
+/*text-decoration: none;*/
+
+}
+.learn a{
+text-decoration: none;
+color: white;
+}
+
+.log{
+	height: 70px;
+	background-color: #252e30;
+}
+
+.log .center .logo img{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+.log .center .navlist ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	float: right;
+}
+
+.log .center .navlist ul li{
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.log .center .navlist li a{
+	text-decoration: none;
+	padding-left: 25px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.all{
+width: 100%;
+height: 250px;
+background-color: white;
+}
+.value{
+width:250px;
+float: left;
+padding-left: 150px;
+padding-right: 50px;
+}
+.goal{
+width:250px;
+float: left;
+padding-right: 50px;
+}
+.hobbies{
+width:250px;
+float: left;
+
+}
+.about{
+height: 550px;
+width: 100%;
+background-color: #f2f2f1;
+margin-bottom: 0px;
+}
+.about .mine img{
+width: 450px;
+height: 550px;
+float: left;
+}
+.about .text{
+width: 500px;
+height: 200px;
+float: left;
+margin-top: 10px;
+padding-left: 90px;
+}
+.about .fashion{
+width: 200px;
+height: 50px;
+float: left;
+padding-left: 100px;
+
+}
+.about .graphic{
+width: 200px;
+height: 50px;
+float: left;
+padding-left: 90px;
+margin-right: 10px;
+}
+.about .design{
+width: 200px;
+height: 20px;
+float: left;
+padding-left: 100px;
+padding-top: 120px;
+margin-right: 0px;
+}
+.about .creative{
+width: 200px;
+height: 20px;
+float: right;
+padding-right: 150px;
+padding-top: 120px;
+
+
+}
+.skill{
+background-color: white;
+width: 100%;
+height: 400px;
+
+}
+.skill .myskills{
+width: 500px;
+height: 300px;
+padding: 80px;
+float: left;
+margin-bottom: 20px;
+}
+.skill .contact a{
+border: 1.5px solid;
+border-color: #2ecc71;
+font-size: 15px;
+font-weight: bold;
+/*position: absolute;
+top: 83%;
+left: 11%;
+transform: translate(-50%,-50%);*/
+
+color: #2ecc71;
+padding: 5px;
+    text-decoration: none;
+
+}
+.skill .bars{
+float: left;
+background-color: white;
+width: 450px;
+height: 300px;
+padding: 40px;
+
+
+
+}
+.skill .bars .bar1a{
+background-color: #f2f2f1;
+height: 15px;
+width: 400px;
+}
+.skill .bars .bar1b{
+background-color: #2ecc71;
+height: 15px;
+width: 350px;
+}
+.skill .bars .bar1b p{
+color: white;
+text-align: right;
+
+
+}
+/*.skills .bar2{
+float: right;*/
+
+
+
+}
+.skill .bars .bar2a{
+background-color: #f2f2f1;
+height: 15px;
+width: 400px;
+}
+.skill .bars .bar2b{
+background-color: #2ecc71;
+height: 15px;
+width: 330px;
+}
+.skill .bars .bar2b p{
+color: white;
+text-align: right;
+}
+
+.skill .bars .bar3a{
+background-color: #f2f2f1;
+height: 15px;
+width: 400px;
+}
+.skill .bars .bar3b{
+background-color: #2ecc71;
+height: 15px;
+width: 350px;
+}
+.skill .bars .bar3b p{
+color: white;
+text-align: right;
+}
+.skill .bars .bar4a{
+background-color: #f2f2f1;
+height: 20px;
+width: 400px;
+}
+.skill .bars .bar4b{
+background-color: #2ecc71;
+height: 20px;
+width: 300px;
+}
+.skill .bars .bar4b p{
+color: white;
+text-align: right;
+}
+.resume{
+height: 120px;
+width: 75%;
+background-color: #f2f2f1;
+text-align: center;
+padding: 60px 150px 60px 150px;
+}
+.resume a{
+border: 1.5px solid;
+border-color: #2ecc71;
+font-size: 15px;
+font-weight: bold;
+color: #2ecc71;
+padding: 7px;
+    text-decoration: none;
+
+}
+.ed{
+width: 100%;
+height: 1300px;
+background-color: white;
+}
+.ed .education{
+width: 100%;
+height: 500px;
+
+
+}
+.ed .education .myed{
+width: 500px;
+padding: 50px 20px 0px 150px;
+float: left;
+
+}
+ .ed .education .diplomas{
+width: 400px;
+float: left;
+padding: 90px 80px 0px 10px;
+
+}
+.ed .education .diplomas .cit{
+margin-top: 40px;
+
+}
+.ed .work .workexp{
+width: 500px;
+padding: 50px 20px 0px 125px;
+float: left;
+}
+.ed .work .right{
+width: 400px;
+float: left;
+padding: 90px 80px 0px 30px;
+
+}
+.ed .work .right .junior{
+padding-top: 15px;
+}
+.ed .work .right .web{
+padding-top: 15px;
+}
+.zak{
+height: 120px;
+width: 75%;
+background-color: #f2f2f1;
+text-align: center;
+padding: 60px 150px 60px 150px;
+}
+.port{
+text-align: center;
+width: 75%;
+padding: 60px 150px 50px 150px;
+height: 100px;
+}

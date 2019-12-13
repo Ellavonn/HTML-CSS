@@ -1,0 +1,27 @@
+body{
+	background-color: pink;
+	font-family:arial;
+
+}
+.login-cont{
+	max-width:400px;
+	min-height:300px;
+	background-color:;
+
+}
+.login-cont h3{
+	padding:30px;
+	background-color:#fff;
+
+}
+.login-cont form ul li{
+	padding:0px;
+	margin:0px 0 0px 0;
+	list-style:none;
+
+}
+login-cont form label{
+	padding-bottom:5px;
+
+}
+.login-cont:

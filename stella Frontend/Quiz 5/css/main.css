@@ -1,0 +1,24 @@
+body{
+	background-image:  url(../images.html/birds.gif),url(../images.html/balloon.png), url(../images.html/beach.jpg);
+	background-size: 25%,20%,cover;
+	background-repeat: no-repeat;
+	background-position:50% 15%,5% 5%, top left ;
+	background-attachment: fixed;
+
+}
+.class{
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	width: 700px;
+	padding: 30px;
+	min-height: 500px;
+	color: #fff;
+	font-size: 18px;
+	text-align-last: center;
+
+
+
+}footer{
+	background-color: white;
+	color: black;
+}
